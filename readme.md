@@ -39,6 +39,5 @@ for full information on setup and what to do follow this link [ERC20](https://ww
 Paaras
 
 ## License
-
 This project is licensed under the MIT License - see the LICENSE.md file for details
 
