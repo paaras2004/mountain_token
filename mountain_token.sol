@@ -11,5 +11,8 @@ contract mountain_tokken is ERC20{
     function burn(uint256 value) public{
         _burn(msg.sender, value);
     }
+    function transfer(address address_to, uint256 value) public override returns (bool) {
+        _transfer(msg.sender,address_to,value);
     
- 
+    }
+}
